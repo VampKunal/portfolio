@@ -1,7 +1,3 @@
-// JavaScript for scrolling functionality
-// Example: Smooth scrolling for anchor links
-// Add your scrolling functionality here
-// JavaScript for scrolling functionality
 
 document.addEventListener('DOMContentLoaded', function () {
     const scrollLinks = document.querySelectorAll('a[href^="#"]');
