@@ -78,8 +78,8 @@ nav .logo a {
 nav .logo a:hover {
     color: white;
     scale: 110%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow as needed */
-    transform: translateY(-2px); /* Adjust elevation height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
@@ -164,7 +164,7 @@ ul li a:hover {
   display: flex;
   gap: 7rem;
   position: relative;
-  top: 10rem; /* Move further down */
+  top: 10rem;
   left: 0rem;
   animation: fadeInUp 1s ease-out;
  
@@ -183,22 +183,22 @@ ul li a:hover {
 
 .social__links a {
   color: var(--primary-color);
-  font-size: 2rem; /* Adjust size as needed */
+  font-size: 2rem; 
   transition: color 0.3s;
   
 }
 .social__links i {
-  margin-right: 0.5rem; /* Add space between icon and text */
+  margin-right: 0.5rem; 
 }
 .social__links span {
-  margin-left: 0.5rem; /* Add space between icon and text */
-  font-size: 1rem; /* Adjust size as needed */
+  margin-left: 0.5rem;
+  font-size: 1rem; 
 }
 
 .social__links a:hover {
   color: var(--text-light);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow as needed */
-    transform: translateY(-5px); /* Adjust elevation height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px); 
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 .about__container {
@@ -276,16 +276,16 @@ ul li a:hover {
   .hire__me:hover{
     background-color: var(--secondary-color);
     color:#ffffff ;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow as needed */
-    transform: translateY(-2px); /* Adjust elevation height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
   .portfolio:hover {
     background-color: var(--primary-color-dark);
     color: #ffffff; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow as needed */
-    transform: translateY(-2px); /* Adjust elevation height */
-    transition: box-shadow 0.3s ease, transform 0.3s ease;/* White text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
   }
   
   @keyframes pulseAnimation {
@@ -422,7 +422,7 @@ ul li a:hover {
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
-  max-width: 800px; /* Adjust max-width as needed */
+  max-width: 800px;
   margin: auto;
 
 }
@@ -520,20 +520,18 @@ ul li a:hover {
 .project-button:hover {
   background-color: var(--secondary-color);
   color: #FFFFFF;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow as needed */
-    transform: translateY(-4px); /* Adjust elevation height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-4px); 
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 
 
-/* Adjustments for the Suggestions section */
-/* Adjustments for the Suggestions section */
-/* Suggestions Section */
+
 #suggestions {
   text-align: center;
   padding-top: 100px;
-  padding-bottom: 0%; /* Adjust as needed */
+  padding-bottom: 0%;
   scroll-margin-top: 80px;
 }
 
@@ -588,8 +586,8 @@ ul li a:hover {
 #suggestions .submit__btn:hover {
   background-color: var(--secondary-color);
   color: #FFFFFF;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow as needed */
-    transform: translateY(-2px); /* Adjust elevation height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
@@ -759,7 +757,7 @@ footer {
     grid-template-columns: repeat(2, 1fr); 
   }
   .skills__grid {
-    grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    grid-template-columns: repeat(2, 1fr); 
   }
 
   .profile-image {
@@ -770,15 +768,15 @@ footer {
 
   }
   .education-subtopic {
-    padding: 1rem; /* Adjust padding for smaller screens */
+    padding: 1rem;
   }
 
   .education-subtitle {
-    font-size: 1.3rem; /* Adjust font size for smaller screens */
+    font-size: 1.3rem;
   }
 
   .education-content {
-    font-size: 1rem; /* Adjust font size for smaller screens */
+    font-size: 1rem; 
   }
   .social__links {
     display: none;
